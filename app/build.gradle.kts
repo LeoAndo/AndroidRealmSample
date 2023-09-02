@@ -46,5 +46,12 @@ dependencies {
     androidTestImplementation("androidx.test.ext:junit:1.1.5")
     androidTestImplementation("androidx.test.espresso:espresso-core:3.5.1")
 
+    // viewModel -START
+    implementation("androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.1")
+    implementation("androidx.activity:activity-ktx:1.7.2")
+    // viewModel -END
+
+    // Realm -START
     implementation("io.realm.kotlin:library-base:1.10.0")
+    // Realm -END
 }
